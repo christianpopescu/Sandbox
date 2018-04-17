@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CommandLineTools.ArchivingTools.ToolForArchive">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ArchivingTools\ToolForArchive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandLineTools.ArchivingTools.Archiver7zip">
+    <Position X="1.25" Y="3.25" Width="1.75" />
+    <InheritanceLine Type="CommandLineTools.ArchivingTools.ToolForArchive" FixedToPoint="true">
+      <Path>
+        <Point X="1.875" Y="2.44" />
+        <Point X="1.875" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArchivingTools\Archiver7zip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcessesAndThreads.CmdLine.CmdLine">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ProcessesAndThreads.CmdLine.IRunCmdUtil">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
