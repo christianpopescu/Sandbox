@@ -20,6 +20,18 @@ void RunProcessBoost() {
     c.wait();
 }
 
+void RunSystem7Zip() {
+
+    bp::ipstream pipe_stream;
+    std::string command = R"(7z a -tzip archive.zip d:\temp\)";
+    int result = bp::system(command.c_str(), bp::std_out > pipe_stream);
+
+    std::string line;
+    while (std::getline(pipe_stream, line) && !line.empty())
+        std::cout << line << std::endl;
+}
+
+
 int main()
 {
     std::cout << "Hello World!\n";
